@@ -61,6 +61,7 @@ typeText();
 function showMainQuestion() {
     typingContainer.style.display = 'none';
     container.style.display = 'block';
+    container.classList.add('fade-in-question');
 }
 //HOLY GRAIL TO GET BUTTON TO PLAY
 function play() {
@@ -101,3 +102,4 @@ noBtn.addEventListener('click', () =>{
         noBtn.disabled = true;
     }
 });
+

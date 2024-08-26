@@ -91,7 +91,7 @@ button:hover{
 
 @keyframes pulsate{
     0%, 100% {background-color: #000;}
-    50% {background-color: rgb(28, 97, 14);}
+    50% {background-color: rgb(37, 146, 15);}
 }
 .glitch{
     animation: glitch 1s linear infinite;
@@ -100,4 +100,14 @@ button:hover{
 
 .pulsating{
     animation: pulsate 0.40s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+
+.fade-in-question {
+    animation: fadeIn 2s forwards;
+    opacity: 0; /* start transparent */
 }
