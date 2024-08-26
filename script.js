@@ -64,7 +64,7 @@ function showMainQuestion() {
 }
 //HOLY GRAIL TO GET BUTTON TO PLAY
 function play() {
-    var audio = new Audio('https://github.com/OoBubblzoO/MusicStreamHost/raw/main/Gravedgr-SoAliveVIP_final_trimmed.ogg');
+    var audio = new Audio('https://github.com/OoBubblzoO/MusicStreamHost/raw/main/Gravedgr-SoAliveVIP_final_trimmed.mp3');
         audio.play();
 }
 
